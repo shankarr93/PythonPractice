@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 #To read input CSV file using pandas
-ufo = pd.read_csv('https://raw.githubusercontent.com/shankarr93/PythonPractice/master/Analytics/Regex/ufo-scrubbed-geocoded-time-standardized.csv', header=None, nrows=100)
+ufo = pd.read_csv('https://raw.githubusercontent.com/shankarr93/PythonPractice/master/Analytics/Regex/ufo-scrubbed-geocoded-time-standardized.csv', header=None)
 
 #Durations Column is copied to the variable durations.
 durations = ufo[6].tolist()
